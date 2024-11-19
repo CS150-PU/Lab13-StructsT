@@ -91,9 +91,7 @@ Parameters:		inFile - stream to use for data input
 Returned:			None
 ***********************************************************************/
 void readWord (ifstream &inFile, Word &sWord) {
-	getline (inFile, sWord.mWord);
-	getline (inFile, sWord.mDefinition);
-	getline (inFile, sWord.mExampleUsage);
+
 }
 
 /***********************************************************************
