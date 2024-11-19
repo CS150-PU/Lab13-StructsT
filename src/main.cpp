@@ -32,7 +32,7 @@ void displayAllWords (const Word sWords[], int numWords);
 
 void removeWord (Word sWords[], int &numWords, const Word &sWord);
 
-/***********************************************************************
+/*******************************************************************************
 Function:			main
 
 Description:	A simple driver that shows the use of a simple dictionary.
@@ -40,7 +40,7 @@ Description:	A simple driver that shows the use of a simple dictionary.
 Parameters:		None
 
 Returned:			return status
-***********************************************************************/
+*******************************************************************************/
 int main () {
 	const string FILE_NAME = "data/dictionary.txt";
 	const Word SODIUM = { "sodium", "", "" };
@@ -74,7 +74,7 @@ int main () {
 	return EXIT_SUCCESS;
 }
 
-/***********************************************************************
+/*******************************************************************************
 Function:			readWord
 
 Description:	Reads a single word's information from an open file. The
@@ -89,12 +89,12 @@ Parameters:		inFile - stream to use for data input
 							sWord	 - the word to be read
 
 Returned:			None
-***********************************************************************/
+*******************************************************************************/
 void readWord (ifstream &inFile, Word &sWord) {
 
 }
 
-/***********************************************************************
+/*******************************************************************************
 Function:			readAllWords
 
 Description:	Opens the file and then reads each word from the 
@@ -112,12 +112,12 @@ Parameters:		sWords	 - the array of words
 							fileName - name of text file to open and read from
 
 Returned:			None
-***********************************************************************/
+*******************************************************************************/
 void readAllWords (Word sWords[], int &numWords, string fileName) {
 
 }
 
-/***********************************************************************
+/*******************************************************************************
 Function:			displayWord
 
 Description:	Displays a single word's information from the dictionary 
@@ -129,12 +129,12 @@ Description:	Displays a single word's information from the dictionary
 Parameters:		sWord	 - the word to be displayed
 
 Returned:			None
-***********************************************************************/
+*******************************************************************************/
 void displayWord (const Word &sWord) {
 
 }
 
-/***********************************************************************
+/*******************************************************************************
 Function:			displayAllWords
 
 Description:	Displays all the words, definitions, and sample usages
@@ -143,12 +143,12 @@ Parameters:		sWords	 - the array of words
 							numWords - number of words in the array
 
 Returned:			None
-***********************************************************************/
+*******************************************************************************/
 void displayAllWords (const Word sWords[], int numWords) {
 
 }
 
-/***********************************************************************
+/*******************************************************************************
 Function:			removeWord
 
 Description:	Removes a word from the dictionary if it exists. If the
@@ -159,7 +159,7 @@ Parameters:		sWords	 - the array of words
 							sWord		 - word to be removed if it exists
 
 Returned:			None
-***********************************************************************/
+*******************************************************************************/
 void removeWord (Word sWords[], int &numWords, const Word &sWord) {
 
 }
